@@ -1,0 +1,97 @@
+<html lang="en" dir="ltr">
+   <head>
+    <meta charset="UTF-8">
+    <title>How To</title>
+    <link href="./Resources/css/style.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+    <h1>How To</h1>
+    <h2>Recipes and More</h2>
+    <nav>
+      <button onclick="scrollToSection('breakfast')">Breakfast</button>
+      <button onclick="scrollToSection('lunch')">Lunch</button>
+      <button onclick="scrollToSection('dinner')">Dinner</button>
+    </nav>
+    <h2 id="breakfast">Cereal</h2>
+    <img src="./Resources/images/cereal.jpg.jpg"width="200" height="200" alt="Cereal"/>
+    <h3 class="Ingredients">Ingredients</h3>
+    <ul>
+      <li>1 glass bowl</li>
+      <li>cereal of your choice</li>
+      <li>milk</li>
+      <li>spoon</li>
+    </ul>
+<h3 class="steps">Steps</h3>
+      <ol>
+         <li>Get a glass bowl</li>
+         <li>Pour your cereal into the bowl</li>
+         <li>Pour milk into the bowl</li>
+         <li>Grab a spoon</li>
+         <li>Put your spoon into the cereal bowl</li>
+         <li>Enjoy your cereal while watching some fire cartoons</li>
+         <li>When done, put the bowl in the sink</li>
+         <li>Wash the bowl</li>
+         <li>Then you are all done!</li>
+      </ol>
+      <h2 id="lunch">PB&J Sandwhich</h2>
+      <img src="./Resources/images/pb&j.jpg.jpg" width="300" height="200" alt="PB&J Sandwhich"/>
+      <h3 class="Ingredients">Ingredients</h3>
+      <ul>
+        <li>Peanut Butter</li>
+        <li>Jelly</li>
+        <li>2 slices of bread</li>
+        <li>1 butter knife</li>
+        <li>1 plate</li>
+        <li>Chips</li>
+      </ul>
+      <h3 class="steps">Steps</h3>
+      <ol>
+         <li>Get a plate</li>
+         <li>Put 2 slices of bread on the plate</li>
+         <li>Grab the butter knife</li>
+         <li>Open the peanut butter jar</li>
+         <li>Spread peanut butter on one slice of bread</li>
+         <li>Close the peanut butter jar</li>
+         <li>Open the jelly jar</li>
+         <li>Spread jelly on the other slice of bread</li>
+         <li>Close the jelly jar</li>
+         <li>Put the two slices together</li>
+         <li>Grab a bag of chips and enjoy!</li>
+         <li>When done, put the plate in the sink</li>
+      </ol>
+      <h2 id="dinner">Pepperoni Pizza</h2>
+      <img src="./Resources/images/pizza.jpg.jpg" width="300" height="200" alt="Pepperoni Pizza"/>
+      <ul>
+        <li>Naan bread</li>
+        <li>Pizza sauce</li>
+        <li>Cheese</li>
+        <li>Pepperoni</li>
+        <li>Olive oil</li>
+        <li>1 pizza pan</li>
+        <li>1 pizza cutter</li>
+        <li>1 oven</li>
+      </ul>
+      <h3 class="steps">Steps</h3>
+      <ol>
+         <li>Preheat the oven to 400 degrees</li>
+         <li>Get a pizza pan</li>
+         <li>Put the naan bread on the pizza pan</li>
+         <li>Soread olive oil on the bread</li>
+         <li>Spread pizza sauce on the naan bread</li>
+         <li>Put cheese on top of the pizza sauce</li>
+         <li>Add pepperoni on top of the cheese</li>
+         <li>Put the pizza in the oven for 10 minutes</li>
+         <li>When done, take it out and let it cool for 5 minutes</li>
+         <li>Cut it into slices with a pizza cutter</li>
+         <li>Enjoy!</li>
+      </ol>
+      <script>
+        function scrollToSection(sectionId) {
+          const section = document.getElementById(sectionId);
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      </script>
+    </body>
+</html>

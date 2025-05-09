@@ -1,0 +1,34 @@
+* {
+    background-color: #f5ebdd;
+    }
+    
+    h1 {
+    font-size: 2.5rem;
+    color: #4b2e2b;
+    font-weight: 600;
+    }
+    
+    h2{
+    font-size: 2rem;
+    color: #4b2e2b;
+    }
+    
+    h3 {
+    font-size: 1.5rem;
+    color: #f56c7a
+    }
+    
+    a {
+    background-color: #3a4660;
+    color: #c9af98;
+    text-decoration: none;
+    padding: 20px;
+    }
+
+    ol {
+        color: #4b2e2b;
+    }
+
+    ul {
+        color: #4b2e2b;
+    }
